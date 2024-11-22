@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GraphQL Client</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+    .user, .post {
+      border: 1px solid #ddd;
+      padding: 10px;
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+  <h1>GraphQL Client - Vanilla JS</h1>
+
+  <h2>Fetch All Users</h2>
+  <button id="fetchUsers">Fetch Users</button>
+  <div id="users"></div>
+
+  <h2>Fetch User Details</h2>
+  <input type="number" id="userIdInput" placeholder="Enter User ID" />
+  <button id="fetchUser">Fetch User</button>
+  <div id="userDetails"></div>
+
+  <h2>Fetch All Posts</h2>
+  <button id="fetchPosts">Fetch Posts</button>
+  <div id="posts"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
